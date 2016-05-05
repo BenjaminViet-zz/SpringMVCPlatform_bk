@@ -1,0 +1,3 @@
+psql -U postgres -f create_db.sql
+psql -U developer -d "SpringApp" -f create_schema.sql
+psql -U developer -d "SpringApp" -f create_tables.sql
